@@ -3,8 +3,8 @@ High emphasis in readability and speed.
 
 ## Array
 
-- [x] Two Sum [Problem](https://leetcode.com/problems/two-sum/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/two_sum.rs)
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [x] Two Sum [Problem](https://leetcode.com/problems/two-sum/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/two-sum.rs)
+- [x] Best Time to Buy and Sell Stock [Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/best-time-to-buy-and-sell-stock.rs)
 - [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
