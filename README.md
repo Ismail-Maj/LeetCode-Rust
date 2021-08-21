@@ -12,9 +12,9 @@ High emphasis in readability and speed.
 - [x] Maximum Subarray [Problem](https://leetcode.com/problems/maximum-subarray/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/maximum-subarray.rs)
 - [x] Maximum Product Subarray [Problem](https://leetcode.com/problems/maximum-product-subarray/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/maximum-product-subarray.rs)
 - [x] Find Minimum In Rotated Sorted Array [Problem](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/find-minimum-in-rotated-sorted-array.rs)
-- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [ ] [3Sum](https://leetcode.com/problems/3sum/)
-- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+- [x] Search In Rotated Sorted Array [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/search-in-rotated-sorted-array.rs)
+- [x] 3sum [Problem](https://leetcode.com/problems/3sum/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/3sum.rs)
+- [x] Container With Most Water [Problem](https://leetcode.com/problems/container-with-most-water/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/container-with-most-water.rs)
 
 ---
 
