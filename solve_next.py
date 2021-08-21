@@ -11,10 +11,10 @@ with open(filename, "r+") as f:
             folder = line.split()[-1]
         elif line[:6] == '- [ ] ':
             problem = line.split('/')[-2]
-            link = line.split('(')[-1]
+            link = line.split('(')[-1][:-1]
             new_line = '- [x] '
             new_line += " ".join(list(map(lambda s: s[0].upper() + s[1:], problem.split('-'))))
-            new_line += f" [Problem]({link} [Code]({url}/{folder}/{problem}.rs)"
+            new_line += f" [Problem]({link}) [Code]({url}/{folder}/{problem}.rs)"
             idx = i
             break
 
@@ -23,7 +23,10 @@ with open(filename, "r+") as f:
     f.write("\n".join(data))
     f.truncate()
 
-with open(f'{folder}/{problem}.rs', 'x'):
-    pass 
+with open(f'{folder}/{problem}.rs', 'x') as f:
+    f.write(link +'\n\n'+'struct Solution\n\n')
 
+import webbrowser
+
+webbrowser.open(link)
 

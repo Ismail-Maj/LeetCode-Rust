@@ -1,3 +1,7 @@
+// https://leetcode.com/problems/two-sum/
+
+struct Solution;
+
 use std::collections::HashMap;
 
 impl Solution {
