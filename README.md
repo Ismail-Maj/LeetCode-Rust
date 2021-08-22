@@ -20,17 +20,17 @@ High emphasis in readability and speed.
 
 ## Binary
 
-- [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-- [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-- [ ] [Counting Bits](https://leetcode.com/problems/counting-bits/)
-- [ ] [Missing Number](https://leetcode.com/problems/missing-number/)
-- [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+- [x] Sum Of Two Integers [Problem](https://leetcode.com/problems/sum-of-two-integers/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Binary/sum-of-two-integers.rs)
+- [x] Number Of 1 Bits [Problem](https://leetcode.com/problems/number-of-1-bits/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Binary/number-of-1-bits.rs)
+- [x] Counting Bits [Problem](https://leetcode.com/problems/counting-bits/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Binary/counting-bits.rs)
+- [x] Missing Number [Problem](https://leetcode.com/problems/missing-number/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Binary/missing-number.rs)
+- [x] Reverse Bits [Problem](https://leetcode.com/problems/reverse-bits/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Binary/reverse-bits.rs)
 
 ---
 
 ## Dynamic Programming
 
-- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [x] Climbing Stairs [Problem](https://leetcode.com/problems/climbing-stairs/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Programming/climbing-stairs.rs)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)

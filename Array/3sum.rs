@@ -1,10 +1,9 @@
-https://leetcode.com/problems/3sum/
+// https://leetcode.com/problems/3sum/
 
-struct Solution
-
-use std::collections::HashSet;
+struct Solution;
 
 use std::collections::HashSet;
+
 impl Solution {
     pub fn three_sum(mut nums: Vec<i32>) -> Vec<Vec<i32>> {
         nums.sort();
