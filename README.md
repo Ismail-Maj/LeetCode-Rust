@@ -1,8 +1,6 @@
 Curated List of Top 75 LeetCode Questions solved in Rust.  
 High emphasis in readability and speed.
 
-[*original blind thread*](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
-
 ## Array
 
 - [x] Two Sum [Problem](https://leetcode.com/problems/two-sum/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Array/two-sum.rs)
