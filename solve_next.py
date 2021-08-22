@@ -8,7 +8,7 @@ with open(filename, "r+") as f:
     idx = 0
     for i, line in enumerate(data):
         if line[:2] == "##":
-            folder = line.split()[-1]
+            folder = line.split('## ')[-1].replace(' ', '-')
         elif line[:6] == '- [ ] ':
             problem = line.split('/')[-2]
             link = line.split('(')[-1][:-1]

@@ -30,7 +30,7 @@ High emphasis in readability and speed.
 
 ## Dynamic Programming
 
-- [x] Climbing Stairs [Problem](https://leetcode.com/problems/climbing-stairs/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Programming/climbing-stairs.rs)
+- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
