@@ -28,8 +28,8 @@ High emphasis in readability and speed.
 
 ## Dynamic Programming
 
-- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
+- [x] Climbing Stairs [Problem](https://leetcode.com/problems/climbing-stairs/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/climbing-stairs.rs)
+- [x] Coin Change [Problem](https://leetcode.com/problems/coin-change/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/coin-change.rs)
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
