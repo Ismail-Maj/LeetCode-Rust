@@ -1,4 +1,4 @@
-https://leetcode.com/problems/counting-bits/
+// https://leetcode.com/problems/counting-bits/
 
 struct Solution
 
@@ -7,7 +7,7 @@ impl Solution {
         let mut res : Vec<i32> = vec![0];
         
         for i in 1..(n+1) {
-            res.push(res[(i/2) as usize] + i % 2 );
+            res.push(res[(i>>1) as usize] + i % 2 );
         }
         res
     }
