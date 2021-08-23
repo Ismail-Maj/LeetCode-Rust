@@ -30,9 +30,9 @@ High emphasis in readability and speed.
 
 - [x] Climbing Stairs [Problem](https://leetcode.com/problems/climbing-stairs/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/climbing-stairs.rs)
 - [x] Coin Change [Problem](https://leetcode.com/problems/coin-change/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/coin-change.rs)
-- [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
+- [x] Longest Increasing Subsequence [Problem](https://leetcode.com/problems/longest-increasing-subsequence/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/longest-increasing-subsequence.rs)
+- [x] Longest Common Subsequence [Problem](https://leetcode.com/problems/longest-common-subsequence/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/longest-common-subsequence.rs)
+- [x] Word Break [Problem](https://leetcode.com/problems/word-break/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/word-break.rs)
 - [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 - [ ] [House Robber](https://leetcode.com/problems/house-robber/)
 - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
