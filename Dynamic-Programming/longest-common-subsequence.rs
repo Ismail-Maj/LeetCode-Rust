@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/longest-common-subsequence/
 
-struct Solution
+struct Solution;
 
 use std::cmp::{max};
 

@@ -36,9 +36,9 @@ High emphasis in readability and speed.
 - [x] Combination Sum Iv [Problem](https://leetcode.com/problems/combination-sum-iv/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/combination-sum-iv.rs)
 - [x] House Robber [Problem](https://leetcode.com/problems/house-robber/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/house-robber.rs)
 - [x] House Robber Ii [Problem](https://leetcode.com/problems/house-robber-ii/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/house-robber-ii.rs)
-- [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
-- [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
-- [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
+- [x] Decode Ways [Problem](https://leetcode.com/problems/decode-ways/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/decode-ways.rs)
+- [x] Unique Paths [Problem](https://leetcode.com/problems/unique-paths/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/unique-paths.rs)
+- [x] Jump Game [Problem](https://leetcode.com/problems/jump-game/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Dynamic-Programming/jump-game.rs)
 
 ---
 

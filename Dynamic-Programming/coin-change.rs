@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/coin-change/
 
-struct Solution
+struct Solution;
 
 use std::cmp::Ordering;
 

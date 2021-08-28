@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/house-robber/
 
-struct Solution
+struct Solution;
 
 use std::cmp::max;
 

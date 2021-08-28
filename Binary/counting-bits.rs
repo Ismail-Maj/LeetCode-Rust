@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/counting-bits/
 
-struct Solution
+struct Solution;
 
 impl Solution {
     pub fn count_bits(n: i32) -> Vec<i32> {

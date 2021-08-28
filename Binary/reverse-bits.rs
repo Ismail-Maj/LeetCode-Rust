@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/reverse-bits/
 
-struct Solution
+struct Solution;
 
 impl Solution {
     pub fn reverse_bits(mut x: u32) -> u32 {

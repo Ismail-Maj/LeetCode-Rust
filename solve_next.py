@@ -24,7 +24,7 @@ with open(filename, "r+") as f:
     f.truncate()
 
 with open(f'{folder}/{problem}.rs', 'x') as f:
-    f.write('// ' + link +'\n\n'+'struct Solution\n\n')
+    f.write('// ' + link +'\n\n'+'struct Solution;\n\n')
 
 import webbrowser
 
