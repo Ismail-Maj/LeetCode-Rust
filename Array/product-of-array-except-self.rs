@@ -3,21 +3,19 @@
 struct Solution;
 
 impl Solution {
+    // O(n) time - O(1) extra space
     pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
-        let mut acc: i32 = 1;
-        let mut res: Vec<i32> = vec![0; nums.len()];
-        
-        nums.iter().zip(res.iter_mut()).for_each(|(num, el)| {
-            *el  = acc;
-            acc *= num;
-        });
-        
-        acc = 1;     
-        nums.iter().zip(res.iter_mut()).rev().for_each(|(num, el)| {
-            *el *= acc;
-            acc *= num;
-        });
-        
+        let mut res = vec![1; nums.len()];
+        let mut left = 1;
+        for i in 0..nums.len() {
+            res[i] *= left;
+            left *= nums[i];
+        }
+        let mut right = 1;
+        for i in (0..nums.len()).rev() {
+            res[i] *= right;
+            right *= nums[i];
+        }
         res
     }
 }

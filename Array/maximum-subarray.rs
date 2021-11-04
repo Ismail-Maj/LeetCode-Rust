@@ -2,12 +2,12 @@
 
 struct Solution;
 
-use std::cmp::max;
-
 impl Solution {
+    // O(n) time - O(1) space
     pub fn max_sub_array(nums: Vec<i32>) -> i32 {
-        nums.iter().fold((0, i32::MIN), |(cur, mx), &num| {
-            (max(0, cur + num) ,max(mx, cur + num))
-        }).1
+        nums.iter()
+            .fold((0, i32::MIN), |(current, best), &num| {
+                (i32::max(0, current + num), best.max(current + num))
+            }).1
     }
 }

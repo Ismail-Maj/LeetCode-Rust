@@ -2,41 +2,28 @@
 
 struct Solution;
 
+
 impl Solution {
-    pub fn three_sum(mut nums: Vec<i32>) -> Vec<Vec<i32>> {
-        nums.sort();
-
-        let n: usize = nums.len();
-        
-        if n < 3 {
-            return vec![];
-        }
-        let mut res: Vec<Vec<i32>> = vec![];
-
-        for i in 0..n-2 {
-            
-            if i > 0 && nums[i] == nums[i - 1] {
-                continue;
-            }
-            
-            let (mut j, mut k) = (i+1, n-1);
-            while j < k {
-                let total = nums[i] + nums[j] + nums[k];
-
-                if total <= 0 {
-                    j += 1;
+    // O(log(n)) time - O(1) space - binary search
+    pub fn search(nums: Vec<i32>, target: i32) -> i32 {
+        let (mut l, mut r) : (i32, i32) = (0, nums.len() as i32 -1);
+        while l <= r {
+            let m: i32 = (r+l)/2;
+            if nums[m as usize] == target { return m; }
+            if nums[l as usize] <= nums[m as usize] {
+                if nums[m as usize] >= target && nums[l as usize] <= target  {
+                    r = m-1;
+                }else{
+                    l = m+1;
                 }
-                if total >= 0 {
-                    k -= 1;
-                }
-                if total == 0 {
-                    res.push(vec![nums[i], nums[j-1], nums[k+1]]);
-                    while j < k && nums[j] == nums[j - 1] {j += 1;}
-                    while j < k && nums[k] == nums[k + 1] {k -= 1;}
-                }
-
+            }else{
+                if nums[r as usize] >= target && nums[m as usize] <= target  {
+                    l = m+1;
+                }else{
+                    r = m-1;
+                }   
             }
         }
-        res
+        -1
     }
 }

@@ -2,19 +2,18 @@
 
 struct Solution;
 
-use std::cmp::{min, max};
-
 impl Solution {
+    // O(n) time - O(1) space - two pointers
     pub fn max_area(height: Vec<i32>) -> i32 {
-        let mut res = 0;
-        
-        let (mut l, mut r) = (0, height.len()-1);
+        let mut max_area = 0;
+
+        let (mut l, mut r) = (0, height.len() - 1);
         while l < r {
-            let mn = min(height[l], height[r]);
-            res = max(res, mn * (r-l) as i32);
-            while l < r && height[l] <= mn { l+=1; }
-            while l < r && height[r] <= mn { r-=1; }
+            let min = height[l].min(height[r]);
+            max_area = max_area.max(min * (r - l) as i32);
+            while l < r && height[l] <= min {l += 1;}
+            while l < r && height[r] <= min {r -= 1;}
         }
-        res
+        max_area
     }
 }
