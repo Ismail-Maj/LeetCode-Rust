@@ -3,6 +3,7 @@
 struct Solution;
 
 impl Solution {
+    // O(n) time and O(1) extra space
     pub fn count_bits(n: i32) -> Vec<i32> {
         let mut res : Vec<i32> = vec![0];
         

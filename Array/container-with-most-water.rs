@@ -9,8 +9,8 @@ impl Solution {
 
         let (mut l, mut r) = (0, height.len() - 1);
         while l < r {
-            let min = height[l].min(height[r]);
-            max_area = max_area.max(min * (r - l) as i32);
+            let min = i32::min(height[l], height[r]);
+            max_area = i32::max(max_area, (min * (r - l) as i32));
             while l < r && height[l] <= min {l += 1;}
             while l < r && height[r] <= min {r -= 1;}
         }
