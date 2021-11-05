@@ -8,7 +8,7 @@ impl Solution {
         for i in 0..grid.len() {
             for j in 0..grid[0].len() {
                 if grid[i][j] == '1' {
-                    res+=1;
+                    res += 1;
                     dfs(i, j, &mut grid);
                 }
             }
@@ -18,12 +18,12 @@ impl Solution {
 }
 
 pub fn dfs(i: usize, j: usize, grid: &mut Vec<Vec<char>>) {
-    if i >= 0 && j >= 0 && i < (*grid).len() && j < (*grid)[0].len() && (*grid)[i][j] == '1' {
-        (*grid)[i][j] = '0';
-        dfs(i+1 as usize, j   as usize, grid);
-        dfs(i-1 as usize, j   as usize, grid);
-        dfs(i   as usize, j+1 as usize, grid);
-        dfs(i   as usize, j-1 as usize, grid);
+    if i >= grid.len() || j >= grid[0].len() || grid[i][j] != '1' {
+        return;
     }
+    grid[i][j] = '0';
+    dfs(i + 1, j, grid);
+    dfs(i - 1, j, grid);
+    dfs(i, j + 1, grid);
+    dfs(i, j - 1, grid);
 }
-

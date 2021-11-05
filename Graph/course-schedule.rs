@@ -4,11 +4,6 @@
 
 struct Solution;
 
-const PREREQUISITE: usize = 0;
-const COURSE: usize = 1;
-
-use std::collections::HashSet;
-
 #[derive(Copy, Clone)]
 enum Status {
     Todo,
@@ -26,21 +21,22 @@ impl Solution {
         }
 
         let mut status = vec![Status::Todo; num_courses];
-        (0..num_courses).all(|course| !has_cycle(course, &mut status, &graph))
+        (0..num_courses).all(|course| !Solution::has_cycle(course, &mut status, &graph))
     }
-}
 
-fn has_cycle(course: usize, status: &mut Vec<Status>, graph: &Vec<Vec<bool>>) -> bool {
-    match status[course] {
-        Status::Done => false,
-        Status::InProgress => true,
-        _ => {
-            status[course] = Status::InProgress;
-            if graph[course].iter().enumerate().any(|(i, &b)| b && has_cycle(i, status, graph)) {
-                return true;
+    fn has_cycle(course: usize, status: &mut Vec<Status>, graph: &Vec<Vec<bool>>) -> bool {
+        match status[course] {
+            Status::Done => false,
+            Status::InProgress => true,
+            Status::Todo => {
+                status[course] = Status::InProgress;
+                if graph[course].iter().enumerate().any(|(i, &b)| b && Solution::has_cycle(i, status, graph)) {
+                    return true;
+                }
+                status[course] = Status::Done;
+                false
             }
-            status[course] = Status::Done;
-            false
         }
     }
 }
+
