@@ -18,7 +18,10 @@ impl Solution {
             while j < word1.len() && j < word2.len() {
                 if word1[j] != word2[j] {
                     graph.entry(word1[j]).or_insert(vec![]).push(word2[j]);
-                    in_degree.entry(word2[j]).and_modify(|x| *x += 1).or_insert(1);
+                    in_degree
+                        .entry(word2[j])
+                        .and_modify(|x| *x += 1)
+                        .or_insert(1);
                     break;
                 }
                 j += 1;
@@ -32,7 +35,10 @@ impl Solution {
 
         let m: HashSet<char> = words.iter().flat_map(|w| w.chars()).collect();
 
-        let mut stack: Vec<char> = m.difference(&in_degree.keys().cloned().collect::<HashSet<char>>()).cloned().collect();
+        let mut stack: Vec<char> = m
+            .difference(&in_degree.keys().cloned().collect::<HashSet<char>>())
+            .cloned()
+            .collect();
 
         while !stack.is_empty() {
             let c = stack.pop().unwrap();
@@ -46,7 +52,7 @@ impl Solution {
                 }
             }
         }
-        
+
         if result.len() == m.len() as usize {
             result.into_iter().collect()
         } else {

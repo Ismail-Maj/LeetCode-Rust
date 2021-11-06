@@ -48,7 +48,7 @@ High emphasis in readability and speed.
 - [x] Pacific Atlantic Water Flow [Problem](https://leetcode.com/problems/pacific-atlantic-water-flow/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Graph/pacific-atlantic-water-flow.rs)
 - [x] Number Of Islands [Problem](https://leetcode.com/problems/number-of-islands/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Graph/number-of-islands.rs)
 - [x] Longest Consecutive Sequence [Problem](https://leetcode.com/problems/longest-consecutive-sequence/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Graph/longest-consecutive-sequence.rs)
-- [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)
+- [x] Alien Dictionary [Problem](https://leetcode.com/problems/alien-dictionary/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Graph/alien-dictionary.rs)
 - [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)
 - [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 
