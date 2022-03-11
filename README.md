@@ -1,4 +1,4 @@
-Curated List of Top 75 LeetCode Questions solved in Rust.  
+Curated list of top 75 LeetCode questions solved in Rust.
 High emphasis in readability and speed.
 
 ## Array
@@ -49,7 +49,7 @@ High emphasis in readability and speed.
 - [x] Number Of Islands [Problem](https://leetcode.com/problems/number-of-islands/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Graph/number-of-islands.rs)
 - [x] Longest Consecutive Sequence [Problem](https://leetcode.com/problems/longest-consecutive-sequence/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Graph/longest-consecutive-sequence.rs)
 - [x] Alien Dictionary [Problem](https://leetcode.com/problems/alien-dictionary/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Graph/alien-dictionary.rs)
-- [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)
+- [x] Graph Valid Tree [Problem](https://leetcode.com/problems/graph-valid-tree/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Graph/graph-valid-tree.rs)
 - [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 
 ---
