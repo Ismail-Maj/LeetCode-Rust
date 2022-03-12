@@ -60,7 +60,7 @@ High emphasis in readability and speed.
 - [x] Merge Intervals [Problem](https://leetcode.com/problems/merge-intervals/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Interval/merge-intervals.rs)
 - [x] Non Overlapping Intervals [Problem](https://leetcode.com/problems/non-overlapping-intervals/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Interval/non-overlapping-intervals.rs)
 - [x] Meeting Rooms [Problem](https://leetcode.com/problems/meeting-rooms/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Interval/meeting-rooms.rs)
-- [ ] [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
+- [x] Meeting Rooms Ii [Problem](https://leetcode.com/problems/meeting-rooms-ii/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Interval/meeting-rooms-ii.rs)
 
 ---
 
