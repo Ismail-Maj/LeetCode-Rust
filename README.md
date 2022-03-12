@@ -58,8 +58,8 @@ High emphasis in readability and speed.
 
 - [x] Insert Interval [Problem](https://leetcode.com/problems/insert-interval/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Interval/insert-interval.rs)
 - [x] Merge Intervals [Problem](https://leetcode.com/problems/merge-intervals/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Interval/merge-intervals.rs)
-- [ ] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-- [ ] [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)
+- [x] Non Overlapping Intervals [Problem](https://leetcode.com/problems/non-overlapping-intervals/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Interval/non-overlapping-intervals.rs)
+- [x] Meeting Rooms [Problem](https://leetcode.com/problems/meeting-rooms/) [Code](https://github.com/Ismail-Maj/LeetCode-Rust/blob/main/Interval/meeting-rooms.rs)
 - [ ] [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
 
 ---
