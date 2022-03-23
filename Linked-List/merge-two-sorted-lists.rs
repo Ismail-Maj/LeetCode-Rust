@@ -31,7 +31,7 @@ impl Solution {
     }
 
 
-    // O(1) time - O(n) memory in the call stack
+    // O(n) time - O(n) memory in the call stack
     pub fn merge_two_lists_recursive(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         match (l1, l2) {
             (None, None) => None,
